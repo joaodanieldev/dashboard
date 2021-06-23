@@ -11,7 +11,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
         </div>
 
         <i
-          oncClick={() => closeSidebar()}
+          onClick={() => closeSidebar()}
           className="fa fa-times"
           id="sidebarIcon"
           aria-hidden="true"
@@ -22,7 +22,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <i className="fa fa-minus-square"></i>
           <a href="#">Home</a>
         </div>
-        <h2>Admin</h2>
+        <h2>ADMIN</h2>
         <div className="sidebar__link">
           <i className="fa fa-tachometer-alt"></i>
           <a href="#">Area administrativa</a>
@@ -44,7 +44,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           <a href="#">Administração</a>
         </div>
         <div className="sidebar__link">
-          <i className="fa fa-tachometer"></i>
+          <i className="fa fa-minus-square"></i>
           <a href="#">Area administrativa</a>
         </div>
         <h2>Suporte</h2>
