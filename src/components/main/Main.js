@@ -47,7 +47,7 @@ const Main = () =>{
             </div>
           </div>    
         </div>
-
+            
         <div className="charts">
           <div className="charts__left">
             <div className="charts__left__title">
