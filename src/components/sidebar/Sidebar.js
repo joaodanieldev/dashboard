@@ -7,7 +7,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="NPX Telecomunicação" />
-          <h1>NPX</h1>
+          <h1>Beatrix</h1>
         </div>
 
         <i
